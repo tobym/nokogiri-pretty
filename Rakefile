@@ -6,10 +6,11 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "nokogiri-pretty"
     gem.summary = %Q{Pretty-print the contents of a Nokogiri document}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{ Pretty-prints the contents of a Nokogiri document (as opposed to the object itself). Great to use in irb. }
     gem.email = "toby.matejovsky@gmail.com"
     gem.homepage = "http://github.com/tobym/nokogiri-pretty"
     gem.authors = ["Toby Matejovsky"]
+    gem.add_dependency "nokogiri", ">= 0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

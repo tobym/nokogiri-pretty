@@ -1,7 +1,13 @@
 require 'helper'
 
 class TestNokogiriPretty < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "print XML documents for humans" do
+    doc = Nokogiri::XML('<foo>bar</foo>')
+    assert doc.respond_to? :human
+  end
+
+  should "print HTML documents for humans" do
+    doc = Nokogiri::HTML('<div>bar</div>')
+    assert doc.respond_to? :human
   end
 end
