@@ -10,10 +10,10 @@ Pretty-prints the contents of a Nokogiri document (as opposed to the object itse
 
 Produces:
 
-<foo>
-  <bar>baz</bar>
-  <bar>buzz</bar>
-</foo>
+    <foo>
+      <bar>baz</bar>
+      <bar>buzz</bar>
+    </foo>
 
 XSLT file is from http://www.printk.net/~bds/indent.html
 
