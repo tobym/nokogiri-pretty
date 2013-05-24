@@ -15,7 +15,10 @@ Produces:
       <bar>buzz</bar>
     </foo>
 
-XSLT file is from http://www.printk.net/~bds/indent.html
+The default XSLT file is from http://www.printk.net/~bds/indent.html.
+Specify a different XSLT stylesheet with the `:xslt` option:
+
+    doc.human(:xslt => File.read("some_other.xslt"))
 
 == Note on Patches/Pull Requests
  
