@@ -42,20 +42,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
-      s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
       s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     else
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
-      s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
     end
   else
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
-    s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
   end
 end
