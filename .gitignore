@@ -1,3 +1,6 @@
+# Do not commit Gemfile.lock in gems
+Gemfile.lock
+
 ## MAC OS
 .DS_Store
 
